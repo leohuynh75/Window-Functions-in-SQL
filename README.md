@@ -70,7 +70,13 @@ The table and the output must be like this:
 
 ![](images/problem_2.png)
 
-To create a database source for the above problem, I will use two tools: **SQL Server** and **Dbeaver**. Specifically, I will use Database Management Tool - **Dbeaver**, to connect to **SQL Server**. Then create a new database named **TransactionsDB**. In this database, I will create table with the code:
+To create a database source for the above problem, I will use two tools: **SQL Server** and **Dbeaver**. Specifically, I will use Database Management Tool - **Dbeaver**, to connect to **SQL Server**. 
+
+|![](https://resources.iostream.co/content/article/cai-dat-va-cau-hinh-microsoft-sql-server-2014-express/thumbnail-hd/blob-1593448978164@1x.jpg)|![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI3qRU0TS2U1s7y1_jzRdeCOqx3V6T1R_jSg&s)|
+|:--:|:--:|
+|**Microsoft SQL Server (RDBMS)**|**DBeaver (Database Management Tool)**|
+
+Then create a new database named **TransactionsDB**. In this database, I will create table with the code:
 ```sql
 CREATE TABLE Transactions (
     transaction_id INT PRIMARY KEY,
